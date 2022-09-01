@@ -14,7 +14,7 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
-        MouseRotation();
+      //  MouseRotation();
         KeyboardMove();
         Raycast();
     }

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637975139463678795
-    m_Hash: 984184154
+      ticks: 637974266202431193
+    m_Hash: 3126762322
   m_LockFileStatus:
     m_FilePath: C:/KGA_Error/KGA_Error/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637975139463678795
-    m_Hash: 1529078013
+      ticks: 637974266202473164
+    m_Hash: 825576818
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

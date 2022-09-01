@@ -49,8 +49,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5fdfa45926a8ea4da61e5ce317d6357, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomInfo: 0
+  doNotPush: 0
   checkingText: {fileID: 0}
+  AudioList: []
 --- !u!82 &6074560168552999701
 AudioSource:
   m_ObjectHideFlags: 0
@@ -63,7 +64,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 37759f0ad227fc048adab4278f415f34, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
