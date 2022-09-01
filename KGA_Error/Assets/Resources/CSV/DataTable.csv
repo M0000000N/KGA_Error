@@ -1,26 +1,26 @@
-Index|Script|DoorName|OneButton|TwoButton_L|TwoButton_R|Image|BGM|Turn1|Turn2|Turn3|Turn4
-0000|||||||0|0|0|0|0
-0001|반갑습니다!||||||||||
-0002|"_MOON_의 신작
+Index,Script,DoorName,OneButton,TwoButton_L,TwoButton_R,Image,BGM,Turn1,Turn2,Turn3,Turn4
+0000,,,,,,,0,0,0,0,0
+0001,반갑습니다!,,,,,,,,,,
+0002,"_MOON_의 신작
 COOL MOON의 세계로 오신 것을
-환영합니다!"||||||||||
-0003|"COOL MOON은 
+환영합니다!",,,,,,,,,,
+0003,"COOL MOON은 
 유저의 뇌파에 직접 접근하여
-현실보다 더 현실같은 경험을 선사합니다."||||||||||
-0004|"3시간 이상 COOL MOON에 접속 시
-건강에 악영향이 있을 수 있고,"||Push||||||||
-0005|"안전하게 프로그램이 종료되지 않은 상태에서
+현실보다 더 현실같은 경험을 선사합니다.",,,,,,,,,,
+0004,"3시간 이상 COOL MOON에 접속 시
+건강에 악영향이 있을 수 있고,",,Push,,,,,,,,
+0005,"안전하게 프로그램이 종료되지 않은 상태에서
 VR기기를 벗게 되면
 두뇌에 치명적인 손상이 있을 수 있으니
-주의 부탁드립니다."||||||||||
-0006|"COOL MOON에 들어가기 전,
+주의 부탁드립니다.",,,,,,,,,,
+0006,"COOL MOON에 들어가기 전,
 당신이 로봇이 아님을 증명하는
 간단한 테스트가 있으니!
-가볍게 즐겨주시길 바랍니다."||||||||||
-0007|"주의사항을 잘 숙지해 주시길 바라며,
+가볍게 즐겨주시길 바랍니다.",,,,,,,,,,
+0007,"주의사항을 잘 숙지해 주시길 바라며,
 다시한번 COOL MOON에 오신 것을
-환영합니다!"||||||||||
-1000|"Consciousness-Transmission
+환영합니다!",,,,,,,,,,
+1000,"Consciousness-Transmission
 HumanTest Protocol (HTP0.13a)
 
 
@@ -31,14 +31,14 @@ Human_Test_Log_1
 다시 시도해 주세요.
 
 
-_MOON_"||||||1|1|2|3|4
-1001|이 얼굴은 행복해보이나요 슬퍼보이나요?|FaceTest||Happy|Sad|0|||||
-1002|이 음악의 분위기는 어떤가요?|MusicTest||Happy|Sad|1|2||||
-1003|"3명의 자식을 둔 아버지가 교통사고로 사망했습니다.
+_MOON_",,,,,,1,1,3,2,4
+1001,이 얼굴은 행복해보이나요 슬퍼보이나요?,FaceTest,,Happy,Sad,0,,,,,
+1002,이 음악의 분위기는 어떤가요?,MusicTest,,Happy,Sad,1,2,,,,
+1003,"3명의 자식을 둔 아버지가 교통사고로 사망했습니다.
 당신이 그 아버지의 자식이었다면
-기분이 어떨까요?"|MoralTest||Happy|Sad|2|||||
-1004||End|check||||||||
-2000|"Consciousness-Transmission
+기분이 어떨까요?",MoralTest,,Happy,Sad,2,,,,,
+1004,,End,check,,,,,,,,
+2000,"Consciousness-Transmission
 HumanTest Protocol (HTP0.13a)
 
 
@@ -49,14 +49,14 @@ Human_Test_Log_2
 다시 시도해 주세요.
 
 
-Please Try Again"||||||1|1|2|3|4
-2001|이 얼굴은 행복해보이나요 슬퍼보이나요?|FFaceTest||Happy|Sad|3|||||
-2002|이 음악의 분위기는 어떤가요?|MusicTest||HappyHappy|Sad|1|2||||
-2003|"3명의 자식을 둔 아버지가 교통사고로 사망했습니다.
+Please Try Again",,,,,,1,1,2,3,4
+2001,이 얼굴은 행복해보이나요 슬퍼보이나요?,FFaceTest,,Happy,Sad,3,,,,,
+2002,이 음악의 분위기는 어떤가요?,MusicTest,,HappyHappy,Sad,1,2,,,,
+2003,"3명의 자식을 둔 아버지가 교통사고로 사망했습니다.
 당신이 그 아버지의 자식이었다면
-기분이 어떨까요?"|MoralTest||Sad|Happy|2|||||
-2004||End|check||||||||
-3000|"Consciousness-Transmission
+기분이 어떨까요?",MoralTest,,Sad,Happy,2,,,,,
+2004,,End,check,,,,,,,,
+3000,"Consciousness-Transmission
 HumanTest Protocol (HTP0.13a)
 
 
@@ -66,14 +66,14 @@ test_Log 1382
 
 Please try again
 
-OO"||||||3|2|1|3|4
-3001|이 얼굴은 슬퍼보이나요?|Test||Happy|Happy|3|||||
-3002|이 음악의 분위기? 어떤|MusicTest||Sad|Sad|1|4||||
-3003|"사망했습니다. 3명의 자식을 둔 아버지가 
+OO",,,,,,3,2,1,3,4
+3001,이 얼굴은 슬퍼보이나요?,Test,,Happy,Happy,3,,,,,
+3002,이 음악의 분위기? 어떤,MusicTest,,Sad,Sad,1,4,,,,
+3003,"사망했습니다. 3명의 자식을 둔 아버지가 
 당신이 그 아버지의 자식이었다면
-교통사고?"|MoralTest||Happy|Happy|2|||||
-3004||Exit|Exit||||||||
-4000|"<치명적 오류 발견>
+교통사고?",MoralTest,,Happy,Happy,2,,,,,
+3004,,Exit,Exit,,,,,,,,
+4000,"<치명적 오류 발견>
 
 
 tes_3754
@@ -85,44 +85,44 @@ Please try again
 Please try again
 Please try again
 Please try again
-Please try again"||||||3|1|3|2|4
-4001|슬픈가요?|FaceTest||Fear|Sad|1|||||
-4002|"행복한 노래인가요?
+Please try again",,,,,,3,1,3,2,4
+4001,슬픈가요?,FaceTest,,Fear,Sad,1,,,,,
+4002,"행복한 노래인가요?
 행복한 노래인가요?행복한 노래인가요?행복한 노래인가요?
-행복한 노래인가요?행복한 노래인가요?"|Music||FaceButton2.execute;|commitWrongAnswer();|2|5||||
-4003|행복한가요?|room||FaceButton3.execute;|commitWrongAnswer();|6|||||
-4004||Home|home||||||||
-5000|"<두뇌에 심각한 오류?>
+행복한 노래인가요?행복한 노래인가요?",Music,,FaceButton2.execute;,commitWrongAnswer();,2,5,,,,
+4003,행복한가요?,room,,FaceButton3.execute;,commitWrongAnswer();,6,,,,,
+4004,,Home,home,,,,,,,,
+5000,"<두뇌에 심각한 오류?>
 test7871
 <92.177% Human>
-try again"||||||6|1|2|3|4
-5001|AI가 인간을 제대로 이해하지 못하고 있다|FaceRoom||?||4|||||
-5002|____________________________________________________|MusicRoom||happy|GameManager.Instance.CurrentScene;|4|5||||
-5003|당신은 지금 당장 여기서 나가야 한다|Exit||Yes|No|5|||||
-5004||1@#$%6|GetOut||||||||
-6000|"10908
-<cranial damage>"||||||6|3|3|2|4
-6001|"help
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"|help||haha|hahahahah|0|||||
-6002|"help
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"|help||FaceButton2.execute;|commitWrongAnswer();|0|5||||
-6003|when are you coming home?|help||help|help|6|||||
-6004||당장 나가|?||||||||
-7000|||||||5|3|0|0|0
-7001|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|damaged||damaged|damaged|0|||||
-7002|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|damaged||damaged|damaged|0|||||
-7003|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|damaged||damaged|damaged|6|||||
-7004||내가 나가랬지|getout||||||||
-8000|||||||5|3|4|0|0
-8001|"Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); "|damaged||damaged|damaged|0|||||
-8002|"Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); "|damaged||damaged|damaged|0|5||||
-8003|"Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); "|damaged||damaged|damaged|6|||||
-8004||damaged|getout!!||||||||
-9000|||||||1|0|0|0|0
-9001|지친다…||||||||||
-9002|엄마가 이 게임 사지 말랬는데…||||||||||
-9003|엄마말 들을걸….||||||||||
-9004|춥다||||||||||
-9005|시간이 얼마나 지난거지?||||||||||
-9006|여기서 나갈 수는 있는 걸까….||||||||||
-9007|퇴실해라||||||||||
+try again",,,,,,6,1,2,3,4
+5001,AI가 인간을 제대로 이해하지 못하고 있다,FaceRoom,,?,,4,,,,,
+5002,____________________________________________________,MusicRoom,,happy,GameManager.Instance.CurrentScene;,4,5,,,,
+5003,당신은 지금 당장 여기서 나가야 한다,Exit,,Yes,No,5,,,,,
+5004,,1@#$%6,GetOut,,,,,,,,
+6000,"10908
+<cranial damage>",,,,,,6,3,1,2,4
+6001,"help
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",help,,haha,hahahahah,0,,,,,
+6002,"help
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",help,,FaceButton2.execute;,commitWrongAnswer();,0,5,,,,
+6003,when are you coming home?,help,,help,help,6,,,,,
+6004,,당장 나가,?,,,,,,,,
+7000,,,,,,,5,3,0,0,0
+7001,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,damaged,,damaged,damaged,0,,,,,
+7002,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,damaged,,damaged,damaged,0,,,,,
+7003,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,damaged,,damaged,damaged,6,,,,,
+7004,,내가 나가랬지,getout,,,,,,,,
+8000,,,,,,,5,3,4,0,0
+8001,"Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); ",damaged,,damaged,damaged,0,,,,,
+8002,"Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); ",damaged,,damaged,damaged,0,5,,,,
+8003,"Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); Debug.Log(""Error""); ",damaged,,damaged,damaged,6,,,,,
+8004,,damaged,getout!!,,,,,,,,
+9000,,,,,,,1,0,0,0,0
+9001,지친다…,,,,,,,,,,
+9002,엄마가 이 게임 사지 말랬는데…,,,,,,,,,,
+9003,엄마말 들을걸….,,,,,,,,,,
+9004,춥다,,,,,,,,,,
+9005,시간이 얼마나 지난거지?,,,,,,,,,,
+9006,여기서 나갈 수는 있는 걸까….,,,,,,,,,,
+9007,퇴실해라,,,,,,,,,,

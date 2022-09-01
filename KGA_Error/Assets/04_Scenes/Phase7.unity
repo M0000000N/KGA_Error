@@ -387,7 +387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 245582b5f6644cb4a80c6e316666c853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadePannel: {fileID: 0}
 --- !u!1 &381631510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,7 +1674,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11afaae47f0191947b256892dc3d0889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoomIndex: 1
   ImageList: []
 --- !u!114 &1361851672
 MonoBehaviour:
@@ -2729,7 +2727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2683878417780975415, guid: 078a01875ff5c654a9ba461d1d6c2df2, type: 3}
       propertyPath: moveSpeed
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2683878417780975415, guid: 078a01875ff5c654a9ba461d1d6c2df2, type: 3}
       propertyPath: turnSpeed
@@ -2953,7 +2951,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11afaae47f0191947b256892dc3d0889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoomIndex: 3
   ImageList: []
 --- !u!223 &6773433772899073172
 Canvas:
@@ -3070,7 +3067,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11afaae47f0191947b256892dc3d0889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoomIndex: 2
   ImageList: []
 --- !u!222 &7106081440875923188
 CanvasRenderer:
