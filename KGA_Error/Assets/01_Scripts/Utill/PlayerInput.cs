@@ -1,3 +1,6 @@
+#define WINDOW 
+//#define OCULUS
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,12 +14,20 @@ public class PlayerInput : MonoBehaviour
     public float turnSpeed = 2.5f; // 마우스 회전 속도
     public float moveSpeed = 3f; // 이동 속도
     public Transform CameraTransform;
+    private Transform PlayerTransform;
+
+    private void Awake()
+    {
+        PlayerTransform = GetComponent<Transform>();
+    }
 
     void Update()
     {
-      //  MouseRotation();
-        KeyboardMove();
+#if WINDOW
+        MouseRotation();
         Raycast();
+#endif
+        PlayerMove();
     }
 
     /// <summary>
@@ -24,36 +35,42 @@ public class PlayerInput : MonoBehaviour
     /// </summary>
     void MouseRotation()
     {
-        float yRotateSize = 0;
-        //float yRotateSize = Input.GetAxis("Mouse X") * turnSpeed;
-        float xRotateSize = 0;
-        //float xRotateSize = -Input.GetAxis("Mouse Y") * turnSpeed;
-        float yRotate = transform.eulerAngles.y + yRotateSize;
+        float yRotateSize = Input.GetAxis("Mouse X") * turnSpeed;
+        float xRotateSize = -Input.GetAxis("Mouse Y") * turnSpeed;
+        float yRotate = CameraTransform.eulerAngles.y + yRotateSize;
         xRotate = Mathf.Clamp(xRotate + xRotateSize, -45, 80);  // 회전량 제한(X축, 하늘방향, 바닥방향)
 
-        transform.eulerAngles = new Vector3(xRotate, yRotate, 0);
+        CameraTransform.eulerAngles = new Vector3(xRotate, yRotate, 0);
     }
 
     /// <summary>
     /// 이동과 이동속도
     /// </summary>
-    void KeyboardMove()
+    void PlayerMove()
     {
+#if OCULUS
         Vector2 mov2d = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
         Vector3 dir = new Vector3(mov2d.x, 0, mov2d.y).normalized;
+#endif
 
-        // Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
-        dir = Camera.main.transform.TransformDirection(dir);
-        dir.y = 0f;
-        transform.position += (dir * moveSpeed * Time.deltaTime);
-        //if (Input.GetKeyDown(KeyCode.LeftShift))
-        //{
-        //    moveSpeed *= 2f;
-        //}
-        //if (Input.GetKeyUp(KeyCode.LeftShift))
-        //{
-        //    moveSpeed /= 2f;
-        //}
+#if WINDOW
+        Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
+        
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            moveSpeed *= 1.5f;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            moveSpeed /= 1.5f;
+        }
+#endif
+
+        dir = CameraTransform.TransformDirection(dir);// 오브젝트가 바라보는 앞방향으로 이동방향 돌려서 조정
+
+        dir.y = 0f; // 그래도 y는 올라가면 안됨
+
+        transform.position += dir * moveSpeed * Time.deltaTime;
     }
 
     /// <summary>
@@ -62,7 +79,7 @@ public class PlayerInput : MonoBehaviour
     void Raycast()
     {
         RaycastHit hit; // 충돌정보
-        float maxDistance = 50f; // 검사 최대 거리
+        float maxDistance = 20f; // 검사 최대 거리
 
         if (Physics.Raycast(CameraTransform.position, CameraTransform.forward, out hit, maxDistance))
         {
@@ -73,11 +90,6 @@ public class PlayerInput : MonoBehaviour
                 {
                     hit.transform.GetComponent<Buttonss>().IsPush = true; // 눌렀다고 알려주기
                 }
-                else if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) && !hit.transform.GetComponentInParent<ButtonController>().doNotPush) // 클릭하면
-                {
-                    hit.transform.GetComponent<Buttonss>().IsPush = true; // 눌렀다고 알려주기
-                }
-                
             }
         }
     }
