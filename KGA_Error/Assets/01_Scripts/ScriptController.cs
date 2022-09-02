@@ -28,10 +28,7 @@ public class ScriptController : MonoBehaviour
     void OnTriggerEnter(Collider _other)
     {
         meshRenderer.enabled = true;
-        if (GameManager.Instance.CurrentScene == 9)
-        {
-            TTS.Instance.TTSPlay(scriptText);
-        }
+        TTS.Instance.TTSPlay(scriptText);
     }
     void OnTriggerExit(Collider _other)
     {
