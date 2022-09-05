@@ -1,0 +1,751 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1662081749925019, "dur": 1542838, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081749926182, "dur": 47096, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081749973601, "dur": 60908, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081750034526, "dur": 461673, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081750496202, "dur": 961439, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081751457658, "dur": 10198, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081757502600, "dur": 1123104, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081757502793, "dur": 6745, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081757509540, "dur": 31166, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081757540710, "dur": 351206, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081757891919, "dur": 720441, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081758612363, "dur": 13340, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081758626109, "dur": 54, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1662081757617786, "dur": 265203, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662081757618526, "dur": 34952, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662081757871197, "dur": 3402, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662081757874602, "dur": 8382, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662081757875105, "dur": 7252, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662081757886682, "dur": 934, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662081757886106, "dur": 1523, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081758626277, "dur": 162, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662081757924281, "dur":987, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081757925275, "dur":88, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662081757925390, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662081757925411, "dur":278, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662081757925706, "dur":501, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081757926207, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758606828, "dur":171, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758606999, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607009, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607011, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607016, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607018, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607022, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607023, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607028, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607029, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607033, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607034, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607037, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607039, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607042, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607044, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607048, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607049, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607053, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607054, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607058, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607059, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607063, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607065, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607069, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607076, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758607111, "dur":1496, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662081757925812, "dur":400, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081757926213, "dur":4172, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081757930395, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662081757930397, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081757930443, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662081757930446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081757931198, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662081757932941, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1662081757932982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081757933331, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1662081757934256, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1662081757934293, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081757934297, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1662081757935899, "dur":29338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1662081757965266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081757965270, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1662081757967259, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081757967303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081757967308, "dur":35672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758003016, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758003050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758003056, "dur":47949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758051036, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758051072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758051076, "dur":41374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758092485, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758092520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758092527, "dur":32590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758125149, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758125182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758125186, "dur":20868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758146085, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758146122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758146126, "dur":21280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758167452, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758168093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758168099, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758168863, "dur":902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758169768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758169774, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758172569, "dur":56017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758228589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758228595, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758229675, "dur":451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758230129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758230134, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758230889, "dur":17245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758248137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758248143, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758248904, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758248938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758248942, "dur":118225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758367204, "dur":82900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.Platform.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758450107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758450112, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.Platform.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758450986, "dur":73821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Facebook.Wit.TTS.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758524810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662081758524816, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Facebook.Wit.TTS.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662081758525544, "dur":81281, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081757925837, "dur":382, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081757926219, "dur":4180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081757930399, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662081757930466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081757931620, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662081757933043, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1662081757933078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081757933190, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1662081757934238, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1662081757934274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081757934278, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1662081757965139, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error.exe" }}
+,{ "pid":12345, "tid":2, "ts":1662081757965716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081757965720, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error.exe" }}
+,{ "pid":12345, "tid":2, "ts":1662081757967204, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081757967241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081757967273, "dur":28801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081757996107, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081757996145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081757996150, "dur":54019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758050234, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758050347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081758050351, "dur":83323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758133706, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758133739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081758133745, "dur":52704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758186492, "dur":61309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758247804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081758247810, "dur":4425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758252266, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758252355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081758252361, "dur":60793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758313187, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758313224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081758313228, "dur":92180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758405441, "dur":57777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.AudioManager.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758463221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081758463227, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.AudioManager.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758463983, "dur":1159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/AssistantCoreSDKRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758465145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081758465169, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/AssistantCoreSDKRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758465917, "dur":82274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758548195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662081758548217, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662081758548939, "dur":57889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081757925830, "dur":385, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081757926215, "dur":4177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081757930396, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1662081757930508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081757970915, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1662081757973849, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081757973890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081757973895, "dur":33267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758007821, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758007950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758007957, "dur":69444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758077436, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758077470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758077474, "dur":18204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758095768, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758095884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758095889, "dur":15361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758111281, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758111314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758111319, "dur":20920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758132273, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758132307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758132314, "dur":17640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758149990, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758150022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758150026, "dur":29053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758179113, "dur":31539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758210655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758210660, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758211423, "dur":16765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758228192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758228198, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758229254, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758229758, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758229763, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758230723, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758231268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758231290, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758232072, "dur":1826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758233901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758233907, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758234905, "dur":72192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758307104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758307113, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758308379, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758308413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758308417, "dur":129914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758438361, "dur":60783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/LitJson.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758499146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758499152, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/LitJson.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662081758500652, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662081758500692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758500696, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662081758501930, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662081758501962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758501981, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662081758503122, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662081758503153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758503157, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662081758504460, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1662081758504494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758504498, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1662081758505499, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1662081758505608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758505612, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1662081758507771, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1662081758508346, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758508350, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1662081758509158, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662081758509193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758509197, "dur":6939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662081758516167, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level8.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662081758516198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758516202, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level8.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662081758517767, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1662081758517799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758517803, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1662081758518866, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1662081758518897, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758518900, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1662081758519926, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662081758519959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758519978, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662081758521202, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1662081758521232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758521236, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1662081758522500, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662081758522532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758522561, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662081758523589, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1662081758523621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662081758523626, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1662081758524831, "dur":81998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081757925849, "dur":374, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081757926223, "dur":4184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081757930407, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662081757930502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081757965807, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662081757966972, "dur":31901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081757998877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081757998882, "dur":5586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758004503, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758004538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758004543, "dur":46796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758051367, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758051398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758051402, "dur":26143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758077577, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758077616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758077620, "dur":21005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758098662, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758098696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758098701, "dur":37649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758136385, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758136422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758136426, "dur":26374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758162833, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758162866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758162871, "dur":100022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758262925, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758262961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758262966, "dur":55448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758318444, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758318477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758318484, "dur":87587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758406103, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758406137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758406143, "dur":79167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758485343, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/InteractionSdk.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758485379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758485387, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/InteractionSdk.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758486350, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758486392, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758486397, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758487927, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/OVRPlugin.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758487961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758487966, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/OVRPlugin.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662081758491185, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":4, "ts":1662081758491221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758491409, "dur":4271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":4, "ts":1662081758495720, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662081758495761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758495782, "dur":5325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662081758501165, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662081758501211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758501215, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662081758502564, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662081758502600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758502604, "dur":2860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662081758505496, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662081758505528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758505532, "dur":10843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662081758516405, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level8" }}
+,{ "pid":12345, "tid":4, "ts":1662081758516436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758516440, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level8" }}
+,{ "pid":12345, "tid":4, "ts":1662081758517827, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level6.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662081758517860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758517864, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level6.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662081758518849, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level5.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662081758518881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758518885, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level5.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662081758519772, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1662081758519804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758519807, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1662081758520876, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662081758520905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758520909, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662081758522513, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1662081758522780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662081758522784, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1662081758523933, "dur":82899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081757925867, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081757926227, "dur":4163, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081757930396, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1662081757930510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081757971932, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1662081757972725, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081757972758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081757972763, "dur":23249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081757996053, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081757996094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081757996100, "dur":20839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758016972, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758017006, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081758017010, "dur":99015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758116057, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758116137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081758116141, "dur":21567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758137744, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758137862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081758137942, "dur":24548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758162522, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758162556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081758162562, "dur":46425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758209019, "dur":2717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758211739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081758211744, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758212444, "dur":23992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758236439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081758236445, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758237173, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758237205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081758237210, "dur":73926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758311167, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758311201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081758311206, "dur":120429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758431663, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758431696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662081758431702, "dur":140880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662081758572606, "dur":34239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081757925885, "dur":345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081757926230, "dur":4166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081757930397, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1662081757930498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081757965403, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1662081757966358, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081757966424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081757966679, "dur":51429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758018141, "dur":98171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758116315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081758116320, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758117130, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758117162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081758117166, "dur":73272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758190490, "dur":58123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758248616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081758248621, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758249432, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758249467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081758249471, "dur":100867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758350374, "dur":30397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.Voice.Demo.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758380777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081758380786, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.Voice.Demo.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758381665, "dur":53002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.LipSync.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758434671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081758434677, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.LipSync.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758436059, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Microsoft.CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758436094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662081758436118, "dur":99972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Microsoft.CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662081758536113, "dur":70729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081757925900, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081757926233, "dur":4162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081757930396, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1662081757930468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081757934514, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1662081757935618, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081757935678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081757935733, "dur":35874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081757971645, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081757971683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081757971688, "dur":38465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758010186, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758010221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081758010226, "dur":41370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758051626, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758051659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081758051663, "dur":40933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758092631, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758092664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081758092687, "dur":23728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758116449, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758116484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081758116488, "dur":33380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758149897, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758149952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081758149958, "dur":32210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758182200, "dur":79610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758261815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081758261824, "dur":5444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758267300, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758267339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081758267344, "dur":22433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758289818, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758289857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081758289863, "dur":22437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758312331, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758312379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081758312384, "dur":27965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758340385, "dur":192852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.VR.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758533241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662081758533246, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.VR.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662081758534336, "dur":72494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081757925917, "dur":319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081757926236, "dur":4156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081757930397, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1662081757930467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081757931761, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1662081757933026, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1662081757933057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081757933186, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1662081757934396, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081757934472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081757934678, "dur":30938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081757965680, "dur":74250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/VoiceSDK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758039936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081758039944, "dur":36303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/VoiceSDK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758076290, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758076333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081758076339, "dur":39659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758116033, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758116135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081758116140, "dur":21126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758137299, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758137333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081758137337, "dur":27607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758164986, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758165511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081758165516, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758167330, "dur":1908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758169241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081758169246, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758170812, "dur":74406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758245221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081758245227, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758246170, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758246208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081758246212, "dur":52801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758299047, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758299079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081758299085, "dur":162811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758461927, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/CsvHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758462124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662081758462130, "dur":110370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/CsvHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662081758572533, "dur":34304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081757925931, "dur":308, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081757926239, "dur":4155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081757930396, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1662081757930445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081757931460, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1662081757933008, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1662081757933048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081757933176, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1662081757934117, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1662081757934156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081757934218, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1662081757965198, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1662081757965269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081757965576, "dur":3610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1662081757969230, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081757969273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081757969278, "dur":30225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081757999533, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081757999562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081757999567, "dur":20305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758019901, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758019931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758019937, "dur":30087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758050065, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758050106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758050113, "dur":32274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758082418, "dur":24557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758106981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758106990, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758107910, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758107948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758107953, "dur":37029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758145026, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758145073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758145080, "dur":19628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758164743, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758164783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758164788, "dur":21760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758186584, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758186622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758186629, "dur":43512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758230177, "dur":16765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758246945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758246950, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758247699, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758247737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758247741, "dur":66023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758313797, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758313834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758313838, "dur":81145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758395021, "dur":52646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.Interaction.Samples.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758447670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758447675, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.Interaction.Samples.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758448863, "dur":84479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Facebook.WitAI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758533345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662081758533350, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Facebook.WitAI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662081758534320, "dur":72506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081757925945, "dur":297, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081757926242, "dur":4151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081757930396, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1662081757930505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081757970259, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1662081757971103, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081757971145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081757971149, "dur":38072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758009260, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758009301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758009307, "dur":40751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758050155, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758050190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758050195, "dur":49082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758099308, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758099345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758099350, "dur":18589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758117976, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758118011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758118016, "dur":21016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758139067, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758139104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758139109, "dur":86317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758225464, "dur":982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758226449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758226457, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758228305, "dur":53724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758282033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758282040, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758283315, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758283347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758283351, "dur":77986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758361379, "dur":67628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.Spatializer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758429012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758429021, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.Spatializer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758430685, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758430720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758430726, "dur":45471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758476230, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758476269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758476746, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758477742, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/OculusXRPlugin.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758477776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758477858, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/OculusXRPlugin.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758478660, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/OVRLipSync.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758478693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758478697, "dur":13691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Plugins/x86_64/OVRLipSync.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662081758492420, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1662081758492532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758492696, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1662081758493356, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1662081758493390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758493437, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1662081758494285, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1662081758494315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758494319, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1662081758494999, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":10, "ts":1662081758495040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758495044, "dur":5014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":10, "ts":1662081758500088, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":10, "ts":1662081758500119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758500123, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":10, "ts":1662081758501389, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":10, "ts":1662081758501424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758501428, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":10, "ts":1662081758503516, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1662081758503547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758503551, "dur":4323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1662081758507908, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/resources.resource" }}
+,{ "pid":12345, "tid":10, "ts":1662081758507941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758507946, "dur":5996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/resources.resource" }}
+,{ "pid":12345, "tid":10, "ts":1662081758513983, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1662081758514018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758514025, "dur":7918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1662081758522183, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1662081758522862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662081758522866, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1662081758524851, "dur":81980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081757925969, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081757926245, "dur":4160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081757930405, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1662081757930494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081757934614, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1662081757935764, "dur":29382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081757965150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081757965157, "dur":13776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081757978971, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081757979013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081757979019, "dur":99407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758078460, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758078498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758078503, "dur":18401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758096940, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758096977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758096982, "dur":27603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758124622, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758124662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758124669, "dur":20841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758145546, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758145582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758145587, "dur":18041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758163663, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758163702, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758163707, "dur":28850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758192588, "dur":202323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758394916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758394924, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758395830, "dur":51644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.Interaction.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758447480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758447489, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Oculus.Interaction.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758449359, "dur":3855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Facebook.Wit.TTS.Samples.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758453217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758453222, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Facebook.Wit.TTS.Samples.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758453936, "dur":35584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Facebook.Wit.Conduit.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758489523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758489529, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Facebook.Wit.Conduit.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662081758490319, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":11, "ts":1662081758490358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758490691, "dur":8446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":11, "ts":1662081758499170, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758499203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758499207, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758500969, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758501000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758501004, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758503529, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1662081758503561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758503565, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1662081758504980, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758505013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758505017, "dur":8996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758514047, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level9" }}
+,{ "pid":12345, "tid":11, "ts":1662081758514086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758514091, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level9" }}
+,{ "pid":12345, "tid":11, "ts":1662081758517556, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level7.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758517594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758517598, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level7.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758518480, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level6" }}
+,{ "pid":12345, "tid":11, "ts":1662081758518513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758518517, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level6" }}
+,{ "pid":12345, "tid":11, "ts":1662081758519562, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758519616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758519620, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758520508, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1662081758520540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758520544, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1662081758521401, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758521431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758521434, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662081758522669, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1662081758522701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758522705, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1662081758523891, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1662081758523984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662081758523988, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1662081758524974, "dur":81854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081757925984, "dur":264, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081757926248, "dur":4143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081757930396, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1662081757930536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081757973387, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1662081757974112, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081757974153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081757974159, "dur":23366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081757997561, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081757997597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081757997602, "dur":18531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758016172, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758016218, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758016224, "dur":38481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758054741, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758054778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758054799, "dur":38476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758093303, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758093343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758093348, "dur":16858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758110248, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758110288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758110293, "dur":25856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758136183, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758136221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758136226, "dur":21486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758157794, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758157895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758158091, "dur":19097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758177221, "dur":29678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758206904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758206912, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758208939, "dur":687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758209629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758209635, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758210328, "dur":33593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758243927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758243935, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758244901, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758244937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758244942, "dur":186678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758431649, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758431681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662081758431686, "dur":175096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/KGA_/Desktop/Moon_VR/KGA_Error_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662081758606807, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1662081758606808, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662081758609667, "dur":1546, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1662081758626493, "dur": 791, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662081758626089, "dur": 1213, "ph": "X", "name": "Write chrome-trace events", "args": {} },

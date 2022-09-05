@@ -9,7 +9,7 @@ public class GameManager : SingletonBehaviour<GameManager>
     public int TurnIndex;
     private void Awake()
     {
-        CurrentScene = 6;
+        CurrentScene = 0;
         TurnIndex = 0;
     }
     public void UpdateScene()
